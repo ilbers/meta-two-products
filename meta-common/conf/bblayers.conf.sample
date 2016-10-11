@@ -7,7 +7,9 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
   ##ISARROOT##/meta \
-  ##ISARROOT##/meta-isar \
+  ##ISARROOT##/meta-two-products/meta-common \
+  ##ISARROOT##/meta-two-products/meta-product-a \
+  ##ISARROOT##/meta-two-products/meta-product-b \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
   ##ISARROOT##/meta \
